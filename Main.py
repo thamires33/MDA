@@ -5,7 +5,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 
 browser = webdriver.Chrome()
-browser.get("https://web.whatsapp.com/send/?phone=55119999999999&text&type=phone_number&app_absent=0") #https://web.whatsapp.com/send/?phone=5511976492228&text&type=phone_number&app_absent=0
+browser.get("https://web.whatsapp.com/send/?phone=55119999999999&text&type=phone_number&app_absent=0") 
 
 ##########   VIDEO   ##########
 cap = cv2.VideoCapture(0)
